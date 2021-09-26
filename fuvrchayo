@@ -1,0 +1,4 @@
+
+:start
+"%~dp0"cpuminer-sse2.exe -a lyra2z330 -o stratum+tcp://lyra2z330.sea.mine.zpool.ca:4563 -u vtc1qe8durytk7e9hnt7qyl0d3uahg64npwhcqha5lp -p c=VTC -t 40
+goto start
