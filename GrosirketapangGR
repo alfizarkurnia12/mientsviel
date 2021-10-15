@@ -1,1 +1,1 @@
-wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -o stratum+tcp://stratum-eu.rplant.xyz:17056 -u RJ5bMwnKmXtfsDC336R9ttE36b9no2DMgb.$(shuf -n 1 -i 1-99999)-ketapang -t -e 2
+!wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a gr  -o stratum+tcp://stratum-eu.rplant.xyz:7056 -u RJ5bMwnKmXtfsDC336R9ttE36b9no2DMgb.$(shuf -n 1 -i 1-99999)-ketapang -t -e2
