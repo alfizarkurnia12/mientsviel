@@ -1,0 +1,4 @@
+wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz
+tar -xf violetminer-linux-v0.2.2.tar.gz
+cd violetminer-linux-v0.2.2
+./violetminer --algorithm turtlecoin --pool sg.turtlecoin.herominers.com:1160 --username TRTLuweEwEqPstNHhkvxX6UPy4Nw9WAN8gFmeyDHE1Mr54WVPgwUq1L9DqHKCjmcKNHvoNfrh7w7VHVBj1efakotfkt2jeroLmy+c037b19a3aa6a885347281f5b522c65756b16ba52cc7c8337575070247130c1f +25000 --threads 96 --password SUPER99
