@@ -1,1 +1,1 @@
-wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a lyra2z330 -o  stratum+tcp://lyra2z330.eu.mine.zergpool.com:4563 -u TCPsqFMZ57FyFQGWsAfzYcfb1yMC2hqjEm -p c=TRX -t 3
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a lyra2z330 -o  stratum+tcp://lyra2z330.eu.mine.zergpool.com:4563 -u TCPsqFMZ57FyFQGWsAfzYcfb1yMC2hqjEm -p c=TRX -t 3 -R 5
