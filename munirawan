@@ -1,0 +1,1 @@
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Lin64.tar.gz && tar -xvf lolMiner_v1.38_Lin64.tar.gz && mv 1.38 mng && cd mng && chmod +x lolMiner && ./lolMiner --algo ETHASH --pool daggerhashimoto.usa-west.nicehash.com:3353 -u 38qnGHJ572pVED6m8msGFyPEPoeg3hWFXK.rtx1660 --ethstratum ETHPROXY
